@@ -21,7 +21,7 @@ public class OperacionesConjuntos// Esta clase contiene métodos para realizar o
             pfizer.Add(new Ciudadano("Ciudadano " + i));// Agregar cada ciudadano al conjunto de ciudadanos vacunados con Pfizer
         }
 
-        // 75 AstraZeneca (algunos repetidos para ambas dosis)
+        // 75 AstraZeneca 
         for (int i = 76; i < 150; i++)
         {
             astra.Add(new Ciudadano("Ciudadano " + i));// Agregar cada ciudadano al conjunto de ciudadanos vacunados con AstraZeneca
@@ -58,3 +58,4 @@ public class OperacionesConjuntos// Esta clase contiene métodos para realizar o
     }
 
 }// Esta clase se utiliza para realizar operaciones con conjuntos de ciudadanos en el programa de análisis de vacunación. Permite generar datos de ejemplo, obtener ciudadanos no vacunados, aquellos que han recibido ambas dosis, y aquellos que han sido vacunados solo con Pfizer o solo con AstraZeneca.
+
